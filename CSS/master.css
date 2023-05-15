@@ -22,15 +22,7 @@
 	--skill-box-size: 7em;
 }
 
-@media(prefers-color-scheme: dark) {
-	:root {
-	--back-content: #727272;
-	--text-content: white;
-	--back-content-add: #a2a2a2c9;
 
-	--back-side: #353b4261;
-	}
-}
 
 html, body{
 	width: 100%;
@@ -58,6 +50,11 @@ body>* {
 
 h1,h2,h3{
 	line-height: 1.1;
+}
+
+hr{
+	width: 75%;
+	border-color: var(--back-nav1);
 }
 
 /* Content */
