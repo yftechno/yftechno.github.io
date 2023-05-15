@@ -8,7 +8,7 @@
 	--back-nav1: #2f4f4ff2;
 	--back-nav2: #1c2f2ff2;
 	--highlight-nav: #a9a9a991;
-;
+
 	--back-side: #b0c4de61;
 	--highlight-side: ##416b6bde;
 
@@ -23,7 +23,13 @@
 }
 
 @media(prefers-color-scheme: dark) {
+	:root {
+	--back-content: #727272;
+	--text-content: white;
+	--back-content-add: #a2a2a2c9;
 
+	--back-side: #353b4261;
+	}
 }
 
 html, body{
@@ -297,7 +303,7 @@ div.side-extras > a:hover .tooltiptext{
 }
 
 div.kofi-button{
-	display:flex;
+	margin:25px;
 }
 /* Footer */
 footer{
