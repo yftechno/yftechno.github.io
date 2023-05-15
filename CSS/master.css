@@ -126,8 +126,8 @@ content > div > ul > li {
 }
 
 content > div > ul > li:hover {
-	transition: background-color .5s linear,
-				color .5s ease-in;
+	transition: background-color .25s linear,
+				color .25s ease-in;
 	background-color: #17883fb3;
 	color:white;
 
@@ -154,7 +154,8 @@ content > div > ul > li:hover {
 }
 
 .project-top{
-	background-color: var(--back-side);
+	color:white;
+	background-color: var(--back-nav1);
 	display:flex;
 	justify-content: space-between;
 }
@@ -173,7 +174,7 @@ content > div > ul > li:hover {
 }
 
 .project-etc{
-	background-color:var(--back-content-add);
+	background-color:var(--highlight-nav);
 	display: flex;
 }
 
