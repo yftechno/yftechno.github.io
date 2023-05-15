@@ -208,12 +208,13 @@ nav{
 
 nav > h1{
 	min-width: 200px;
-	width: 70%;
+	flex-grow:1;
+	flex-shrink: 0;
 	text-transform:uppercase;
 }
 
 nav > span{
-	min-width:85px;
+	min-width:100px;
 	display: flex;
 
 	font:icon;
@@ -222,7 +223,6 @@ nav > span{
 	font-size:1.2em;
 
 	height:100%;
-	width:10vw;
 
 	align-items: center;
 	justify-content: center;
@@ -294,6 +294,10 @@ div.side-extras > a .tooltiptext{
 
 div.side-extras > a:hover .tooltiptext{
 	visibility:visible;
+}
+
+div.kofi-button{
+	display:flex;
 }
 /* Footer */
 footer{
