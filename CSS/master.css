@@ -79,18 +79,18 @@ content > div > p {
 	text-indent:25px;
 }
 
-.education{
+.entry{
 	padding-bottom:25px;
 }
 
-.edLevel{
+.entry-name{
 }
 
-.gradDate{
+.entry-date{
 	font-style: italic;
 }
 
-.edInfo{
+.entry-info{
 	display:flex;
 	flex-direction:column;
 }
@@ -142,8 +142,8 @@ content > div > ul > li:hover {
 	flex-direction:column;
 	width:100%;
 	border: 2px solid var(--back-footer);
-	border-radius: 25px;
-	box-shadow: 5px 5px 10px var(--back-nav1);
+	border-radius: 5px;
+	box-shadow: 10px 10px 15px var(--back-side);
 
 	overflow: hidden;
 	justify-content: space-around;
