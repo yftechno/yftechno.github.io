@@ -1,7 +1,8 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Kyle Makes Stuff</title>
 		<link rel="stylesheet" href="CSS/master.css">
 		<script src="JS/controller.js" defer></script>
@@ -9,15 +10,15 @@
 	<body>
 		<nav>
 			<h1>Kyle Atterson</h1>
-			<span onClick="showContent('self')">About Myself</span>
-			<span onClick="showContent('web')">Web Dev</span>
-			<span onClick="showContent('games')">Game Dev</span>
-			<span onClick="showContent('other')">Other Stuff</span>
+			<span onclick="showContent('self')">About Myself</span>
+			<span onclick="showContent('web')">Web Dev</span>
+			<span onclick="showContent('games')">Game Dev</span>
+			<span onclick="showContent('other')">Other Stuff</span>
 		</nav>
 
 		<section class="sidebar">
 			<h2>At A Glance</h2>
-			<img src="Images/Kyle Atterson gencon.jpg" alt="favorite picture of myself, gencon 2018" id="self-image">
+			<img src="Images/Kyle-Atterson-gencon.jpg" alt="favorite picture of myself, gencon 2018" id="self-image">
 
 			<p>E-mail </p>
 			<a href="mailto:kyle.atterson@twicry.com">kyle.atterson@twicry.com</a>
@@ -46,69 +47,19 @@
 
 			</div>
 			<div class="kofi-button">
-				<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Developer Articles', '#29abe0', 'B0B75B8CK');kofiwidget2.draw();</script>
+				<script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+				<script>kofiwidget2.init('Developer Articles', '#29abe0', 'B0B75B8CK');kofiwidget2.draw();</script>
 			</div>
 		</section>
 
-		<content>
+		<main>
 			<div class="tags" id="content-self">
-				<h3>About</h3>
-				<p>Hello! My name is Kyle Atterson, and I love to be creative. I make websites (currently the Website Architect at Indiana State University), and games (both video and traditional) as a hobby. One day I'd love to transition to participating in game development in a bigger team than just myself, maybe as a project manager with you and your team!</p>
+				<h2>About</h2>
+				<p>Hello! My name is Kyle Atterson, and I love to be creative. I make websites, and games (both video and traditional) as a hobby. One day I'd love to transition to participating in game development in a bigger team than just myself, maybe as a project manager with you and your team!</p>
 				<p>I can be described as a designer with a myriad of experience in modern coding and design programs. I bring a precise eye for detail and a vast knowledge of systems that allows me to create high quality design and technical work to specification. I also have experience in training new staff, working in group-oriented projects and scenarios, and have worked with developing web technlology to ensure accessible usability and proper architecture.</p>
 
 				<hr>
-				<h3>Work</h3>
-				<div class="entry">
-					<span class="entry-name">Lecturer @ Indiana State University, </span>
-					<span class="entry-date">August 2023 - Present</span>
-					<br>
-					<span class="entry-info">
-						<p>I have taught or is currently teaching:</p>
-							<ul>
-								<li>CS 170 - "An introduction to World Wide Web programming methods and scripting languages. Includes Hypertext
-Markup Language (HTML), Cascading Style Sheets (CSS), Dynamic Hypertext Markup Language (DHTML),
-JavaScript, and VBScript."</li>
-								<li>CS 609 - "This course provides an introduction to development and administration related to the web.
-Topics may include software design, client-side and server-side development, web applications,
-data management, and security."</li>
-							</ul>
-					</span>
-					</span>
-				</div>
 
-				<div class="entry">
-					<span class="entry-name">Web Architect @ Indiana State University, </span>
-					<span class="entry-date">October 2021 - Present</span>
-					<br>
-					<span class="entry-info">
-							<ul>
-								<li>Lead web programmer for Drupal CMS in charge of user architecture and
-ensuring best practices.</li>
-								<li>Established partnerships with the web team, campus constituents, and
-campus governance.</li>
-								<li>Trains university staff and creates and provides training documents</li>
-								<li>Lead the switch from Google Universal Analytics to GA4</li>
-							</ul>
-					</span>
-					</span>
-				</div>
-
-				<div class="entry">
-					<span class="entry-name">Bursar Operations Systems Coordinator @ Indiana State University, </span>
-					<span class="entry-date">August 2020 - October 2021</span>
-					<br>
-					<span class="entry-info">
-							<ul>
-								<li>Assisted with all technical aspects of Bursar Operations</li>
-								<li>Charged with overcoming process failures with existing tasks, designing
-new, efficient processes.</li>
-								<li>Day-to-day university-wide balancing tasks.</li>
-							</ul>
-					</span>
-					</span>
-				</div>
-
-				<hr>
 				<h3>Education</h3>
 				<div class="entry">
 					<span class="entry-name">Master of Science @ Indiana State University, </span>
@@ -136,6 +87,59 @@ new, efficient processes.</li>
 							<span class="focus">Management Information Systems;</span>
 						</span>
 					</span>
+				</div>
+
+				<hr>
+
+				<h3>Work</h3>
+				<div class="entry">
+					<span class="entry-name">Lecturer @ Indiana State University, </span>
+					<span class="entry-date">August 2023 - March 2026</span>
+					<br>
+					<div class="entry-info">
+						<p>I have taught:</p>
+							<ul>
+								<li>
+									CS 170 - "An introduction to World Wide Web programming methods and scripting languages. Includes Hypertext Markup Language (HTML), Cascading Style Sheets (CSS), Dynamic Hypertext Markup Language (DHTML), JavaScript, and VBScript."
+								</li>
+								<li>
+									CS 479/579 - "Advanced programming for the World Wide Web and the Internet. This course includes three approaches: the older CGI/PERL, Microsoft’s Active Server Pages (ASP), and Sun’s Java Server Pages (JSP). The course also includes the setup and configuration of World Wide Web servers including Apache and Microsoft’s IIS."
+								</li>
+								<li>
+									CS 469/569 - "Includes installation and configuration of Unix/Linux operating system software; set-up of hardware and software for Unix/Linux networking including TCP/IP, FTP, Telnet, DNS, DHCP, and Apache; Unix/Linux administration tasks including directories, users, tuning, backup, security, and networking."
+								</li>
+								<li>
+									CS 609 - "This course provides an introduction to development and administration related to the web. Topics may include software design, client-side and server-side development, web applications, data management, and security."
+								</li>
+							</ul>
+						</div>
+				</div>
+
+				<div class="entry">
+					<span class="entry-name">Web Architect @ Indiana State University, </span>
+					<span class="entry-date">October 2021 - March 2026</span>
+					<br>
+					<div class="entry-info">
+							<ul>
+								<li>Lead web programmer for Drupal CMS in charge of user architecture and ensuring best practices.</li>
+								<li>Established partnerships with the web team, campus constituents, and campus governance.</li>
+								<li>Trains university staff and creates and provides training documents</li>
+								<li>Lead the switch from Google Universal Analytics to GA4</li>
+							</ul>
+						</div>
+				</div>
+
+				<div class="entry">
+					<span class="entry-name">Bursar Operations Systems Coordinator @ Indiana State University, </span>
+					<span class="entry-date">August 2020 - October 2021</span>
+					<br>
+					<div class="entry-info">
+							<ul>
+								<li>Assisted with all technical aspects of Bursar Operations</li>
+								<li>Charged with overcoming process failures with existing tasks, designing new, efficient processes.</li>
+								<li>Day-to-day university-wide balancing tasks.</li>
+							</ul>
+						</div>
 				</div>
 
 				<hr>
@@ -169,7 +173,7 @@ new, efficient processes.</li>
 					<li>Unity Engine</li>
 				</ul>
 
-				<h4>Writing & Analytics</h4>
+				<h4>Writing &amp; Analytics</h4>
 				<ul>
 					<li>Microsoft Suite</li>
 					<li>Google Drive Suite</li>
@@ -242,7 +246,7 @@ new, efficient processes.</li>
 						Maintained and recreated the website for ISU's Role Player's Guild.
 					</span>
 
-					<span class="project-etc" style="text-align:center;display:block">
+					<span class="project-etc">
 						Website is now defunct
 					</span>
 				</div>
@@ -352,15 +356,15 @@ new, efficient processes.</li>
 				</div>
 
 			</div>
-		</content>
+		</main>
 
 		<div class="hidden"><span>KA</span></div>
 
 		<footer>
 		This is a website created by Kyle Atterson, as a portfolio website.
-		<div>Icons made by <a href="https://www.freepik.com" 	title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+		<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-		&copy; 2021
+		© 2021
 		</footer>
-	</body>
+</body>
 </html>
