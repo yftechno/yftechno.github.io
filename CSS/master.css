@@ -58,7 +58,7 @@ hr{
 }
 
 /* Content */
-content{
+main{
 	grid-area: content;
 	background-color:var(--back-content);
 	display: flex;
@@ -67,7 +67,7 @@ content{
 	min-width:500px;
 }
 
-content>*{
+main>*{
 	max-width:60rem;
 	margin: 0 auto;
 	flex-grow:1;
@@ -75,7 +75,7 @@ content>*{
 
 }
 
-content > div > p {
+main > div > p {
 	text-indent:25px;
 }
 
@@ -84,6 +84,7 @@ content > div > p {
 }
 
 .entry-name{
+	font-weight:bold;
 }
 
 .entry-date{
@@ -104,14 +105,14 @@ content > div > p {
 	font-weight: normal;
 }
 
-content > div > ul {
+.skill-boxes {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
 	align-content: space-around;
 }
 
-content > div > ul > li {
+.skill-boxes li {
 	display:flex;
 	align-items:center;
 	justify-content: center;
@@ -128,7 +129,7 @@ content > div > ul > li {
 	font-size: large;
 }
 
-content > div > ul > li:hover {
+.skill-boxes li:hover {
 	transition: background-color .25s linear,
 				color .25s ease-in;
 	background-color: #17883fb3;

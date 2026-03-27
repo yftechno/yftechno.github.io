@@ -13,7 +13,7 @@
 			<span onclick="showContent('self')">About Myself</span>
 			<span onclick="showContent('web')">Web Dev</span>
 			<span onclick="showContent('games')">Game Dev</span>
-			<span onclick="showContent('other')">Other Stuff</span>
+			<span onclick="showContent('other')">Events &amp; Jams</span>
 		</nav>
 
 		<section class="sidebar">
@@ -92,6 +92,32 @@
 				<hr>
 
 				<h3>Work</h3>
+
+				<div class="entry">
+					<span class="entry-name">Freelance Web Developer &amp; Marketer, </span>
+					<span class="entry-date">December 2021 - Present</span>
+					<br>
+					<div class="entry-info">
+							<ul>
+								<li>Consulted with multiple indie and small teams on crafting their websites or creating marketing campaigns</li>
+								<li>Implemented analytics and authored developer documentation for ongoing use.</li>
+							</ul>
+						</div>
+				</div>
+
+				<div class="entry">
+					<span class="entry-name">Owner &amp; Game Dev @ Twisted Crystal Games, </span>
+					<span class="entry-date">November 2020 - Present</span>
+					<br>
+					<div class="entry-info">
+							<ul>
+								<li>Designed and released original tabletop RPGs and journaling games, spanning game jams and independently motivated projects.</li>
+								<li>Publish development postmortems on projects on my Ko-Fi, with a monthly summary dev journal, focusing on my growth as a developer.</li>
+								<li>Founded and organized Street Grimoire Jam annually on itch.io, a community game jam focused on modern-day fantasy game design</li>
+							</ul>
+						</div>
+				</div>
+
 				<div class="entry">
 					<span class="entry-name">Lecturer @ Indiana State University, </span>
 					<span class="entry-date">August 2023 - March 2026</span>
@@ -121,7 +147,7 @@
 					<br>
 					<div class="entry-info">
 							<ul>
-								<li>Lead web programmer for Drupal CMS in charge of user architecture and ensuring best practices.</li>
+								<li>Lead development for Drupal CMS, was in charge of architecture and ensuring best practices within the lean web team.</li>
 								<li>Established partnerships with the web team, campus constituents, and campus governance.</li>
 								<li>Trains university staff and creates and provides training documents</li>
 								<li>Lead the switch from Google Universal Analytics to GA4</li>
@@ -145,18 +171,18 @@
 				<hr>
 				<h3>Skills</h3>
 				<h4>Web Development</h4>
-				<ul>
+				<ul class="skill-boxes">
 					<li>HTML / CSS</li>
 					<li>JavaScript</li>
 					<li>Node.js</li>
 					<li>PHP</li>
 					<li>MySQL</li>
-					<li>Google Analytics</li>
+					<li>Google Analytics &amp; Tags</li>
 					<li>Adobe Suite</li>
 				</ul>
 
 				<h4>Programming Languages</h4>
-				<ul>
+				<ul class="skill-boxes">
 					<li>C/C++</li>
 					<li>C#</li>
 					<li>Java</li>
@@ -167,25 +193,27 @@
 				</ul>
 
 				<h4>Video Game Development</h4>
-				<ul>
+				<ul class="skill-boxes">
 					<li>GameMaker Studio 2</li>
 					<li>Unreal Engine</li>
 					<li>Unity Engine</li>
+					<li>Godot</li>
 				</ul>
 
 				<h4>Writing &amp; Analytics</h4>
-				<ul>
+				<ul class="skill-boxes">
 					<li>Microsoft Suite</li>
-					<li>Google Drive Suite</li>
+					<li>Google Workspace</li>
 					<li>Power Query</li>
 				</ul>
 
 				<h4>Project Management</h4>
-				<ul>
+				<ul class="skill-boxes">
 					<li>Asana</li>
 					<li>ClickUp</li>
 					<li>JIRA</li>
 					<li>Wrike</li>
+					<li>Teamdynamix</li>
 				</ul>
 
 			</div>
@@ -296,6 +324,44 @@
 				<div class="project">
 					<span class="project-top">
 						<span class="project-name">
+							Dubious Destinies
+						</span>
+						<span class="project-date">
+							January 2025
+						</span>
+					</span>
+
+					<span class="project-description">
+						Made for the game jam, <a href="https://itch.io/jam/souls-lite-ttrpg-jam">Souls-lite TTRPG Jam</a>, that had 13 entries, including this one.
+					</span>
+
+					<span class="project-etc">
+						<a href="https://twistedcrystalgames.itch.io/dubious-destinies">Check it out on itch.io</a>
+					</span>
+				</div>
+
+				<div class="project">
+					<span class="project-top">
+						<span class="project-name">
+							A Web of Novels
+						</span>
+						<span class="project-date">
+							January 2025
+						</span>
+					</span>
+
+					<span class="project-description">
+						Made for the game jam, <a href="https://itch.io/jam/36wordrpgjam">36-Word RPG Jam</a>, that had 353 entries, including this one. It was made in 45 minutes!
+					</span>
+
+					<span class="project-etc">
+						<a href="https://twistedcrystalgames.itch.io/a-web-of-novels">Check it out on itch.io</a>
+					</span>
+				</div>
+
+				<div class="project">
+					<span class="project-top">
+						<span class="project-name">
 							Labyrinth Caught Between The Stars - Dungeon Generator for any TTRPG system
 						</span>
 						<span class="project-date">
@@ -333,8 +399,48 @@
 
 			</div>
 			<div class="tags" id="content-other">
-				<h3>Other</h3>
-				<p>Some other things that I have worked on are posted below.</p>
+				<h3>Game Jams &amp; Events</h3>
+				<p>There are times where I like to work with others and make or help with bigger projects, like running events or cons.</p>
+
+				<div class="project">
+					<span class="project-top">
+						<span class="project-name">
+							Street Grimoire Jam
+						</span>
+						<span class="project-date">
+							April/May 2023 - Present
+						</span>
+					</span>
+
+					<span class="project-description">
+						I founded and got volunteers to help me run and create a game jam focused on modern science fantasy adventures. It was more of a 'creative' jam, and non-competitive.
+					</span>
+
+					<span class="project-etc">
+						<a href="https://itch.io/jam/street-grimoire-jam-23">2023</a>
+						<a href="https://itch.io/jam/street-grimoire-jam">2024</a>
+						<a href="https://itch.io/jam/2025-street-grimoire-jam">2025</a>
+					</span>
+				</div>
+
+				<div class="project">
+					<span class="project-top">
+						<span class="project-name">
+							Modern Fables Jam
+						</span>
+						<span class="project-date">
+							June/July 2025
+						</span>
+					</span>
+
+					<span class="project-description">
+						I founded modern fables to test the waters of a more focused game jam, where people were to write a TTRPG adventure in a modern world.
+					</span>
+
+					<span class="project-etc">
+						<a href="https://itch.io/jam/modern-fables-jam">Itch Jam Page</a>
+					</span>
+				</div>
 
 				<div class="project">
 					<span class="project-top">
